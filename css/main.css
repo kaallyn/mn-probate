@@ -1,0 +1,749 @@
+/* ==========================================================================
+   Global Overrides
+  ========================================================================== */
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+/* ==========================================================================
+   Author's custom styles
+
+  red= #cf1330
+  lightest bg blue: #D2E0E3
+  med bg blue: #B4D9DC;
+  teal text: #569fa4
+  dark blue: #2d5974
+  gray text: #666;
+  ;
+  ========================================================================== */
+
+
+/* Global
+   ================================================================ */
+
+
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color: red;
+
+  -webkit-font-smoothing: antialiased;
+}
+
+li {
+  list-style: none;
+}
+
+/* Headings
+   ================================================================ */
+h1 {
+  font-family: "Raleway", serif;
+  /*font-family: 'Montserrat', sans-serif;
+  font-weight: bold;*/
+  font-size: 1em;
+  line-height: 1;
+  float: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 19px;
+  text-transform: uppercase;
+  /*background-color: orange;*/
+}
+
+h2 {
+  font-family: "Source Sans Pro";
+  font-weight: 700;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+h3 {
+  font-family: "Raleway", serif;
+  font-size: 1.25em;
+  margin: 0;
+}
+
+
+
+/* Text Styles
+   ================================================================ */
+a,
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  margin: 0 0 20px;
+}
+
+
+
+
+/* Header/Footer
+   ================================================================ */
+header,
+footer {
+  color: #fff;
+  background-color: #cf1330;
+}
+
+header {
+  padding: 0 3%;
+  border-bottom: 4px solid #fff;
+  z-index: 999;
+}
+
+footer {
+  clear: both;
+  padding: 10px 3%;
+}
+
+footer p {
+  margin: 0;
+}
+
+header.shadow {
+/*  background-color: yellow;*/
+  position: fixed;
+  width: 100%;
+}
+
+
+
+/* Navigation
+   ================================================================ */
+nav {
+  float: right;
+  padding-left: 30px;
+  text-align: right;
+}
+
+nav li {
+  float: left;
+  text-align: center;
+  font-size: smaller;
+}
+
+nav a {
+  display: block;
+  padding: 20px 15px 0 15px;
+  transition: all .2s ease;
+}
+
+nav a:hover {
+  color: #9ACCD0;
+}
+
+header nav strong {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+
+/* Buttons
+   ================================================================ */
+.button,
+.button:visited {
+  font-family: "Oswald", sans-serif;
+  display: block;
+  padding: 12px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #666;
+  border-radius: 5px;
+  background: #deece6;
+  box-shadow: inset 0 -3px 0 rgba(0,0,0,.2);
+  transition: all .2s ease;
+}
+
+/* Super info button in blurb */
+.blurb .button {
+  transition: all .2s ease;
+  color: white;
+  background: #cf1330;
+}
+
+.blurb .button:hover {
+  color: white;
+  background: #FC193D;
+}
+
+
+/* Tagline
+   ================================================================ */
+.tagline {
+  font-family: "Raleway", serif;
+  font-size: 1.25em;
+  /*font-style: italic;*/
+  line-height: 1em;
+  margin: 0;
+  padding: 25px;
+  text-align: center;
+  border-top: 1px solid #aaa;
+  background-color: #E2EBED;
+  background-color: rgba(210,224,227,.65);
+}
+
+
+/* Banner
+   ================================================================ */
+.blurb {
+  float: right;
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, .8);
+ /* box-shadow: 0 0 5px rgba(0,0,0,.25);*/
+}
+
+.banner {
+  overflow: hidden;
+
+  background-image: url(../images/counsel-t2.jpg);
+  background-position: 0 -25px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 5px rgba(0,0,0,.25);
+}
+
+.bannerfilter {
+/*  background-color: rgba(86,159,194,.15);*/
+    padding: 3%;
+
+}
+  .blue {
+    background-color: blue;
+    display: block;
+  }
+
+/* Info Sections (Call to action columns)
+   ================================================================ */
+.info {
+  float: left;
+  width: 33.333333334%;
+  margin: 25px 0;
+  padding: 3%;
+  border-right: 1px solid #757373;
+  border-right: 1px solid rgba(0,0,0,.15);
+}
+
+
+.info:last-of-type {
+  border-right: none;
+  width: 66.6666666%;
+}
+
+.info-container {
+  float: left;
+  width: 100%;
+  margin: 0 0;
+  padding: 3%;
+}
+
+/*5 STEPS=================================*/
+
+.steps-container{
+  overflow: hidden;
+  margin: 0 auto;
+  max-width: 1200px;
+  display:block;
+  clear:both;
+  margin: 25px auto 0 auto;
+  padding: 5% 6%;
+}
+
+.steps-container h3{
+  color: #2D5974;
+  font-weight: normal;
+  font-size: 1.75em;
+  padding: 0 0 0 3%;
+}
+.fivesteps {
+  float: left;
+  width: 60%;
+  margin: 25px 0;
+  padding: 3%;
+}
+
+.steps-list-container {
+  float: left;
+  width: 40%;
+  margin: 25px 0;
+  padding: 3% 3% 0 3%;
+}
+
+.steps-ul {
+  padding: 0 ;
+  margin: 0;
+}
+
+.property-list {
+  padding:0 0 0 20px;
+  margin-top: -10px;
+
+}
+
+.property-list li {
+  list-style-type: circle;
+  font-size: smaller;
+}
+.steps-text {
+  overflow: hidden;
+}
+
+.steps-container .button{
+/*  width:30%;*/
+    margin: 10% auto 0 auto;
+    background-color: #2D5974;
+    color: #fff;
+    opacity: .8;
+    font-size: 16px;
+}
+
+/*DISPOSITION OPTIONS========================*/
+
+.disposition-container{
+  overflow: hidden;
+  margin: 0 auto;
+  max-width: 1200px;
+  display:block;
+  clear:both;
+  margin: 25px auto 0 auto;
+  padding: 5% 6%;
+/*  background-color: #E2EBED;*/
+}
+
+.disposition-container h3{
+  color: #2D5974;
+  font-weight: normal;
+  font-size: 1.75em;
+  padding: 1em 0 0 0;
+  padding-left: 3%;
+}
+
+.disposition-opener {
+  float: left;
+  width: 60%;
+  margin: 25px 0;
+  padding: 3%;
+}
+
+.disposition-list-container {
+  float: left;
+  width: 40%;
+  margin: 25px 0;
+  padding: 3% 3% 0 3%;
+}
+
+.disposition-container .button{
+/*  width:30%;*/
+    margin: 10% auto 0 auto;
+    background-color: #577A90;
+    color: #fff;
+    font-size: 16px;
+}
+
+/*TESTIMONIALS========================*/
+.testimonials {
+  overflow: hidden;
+  padding: 6%;
+  position: relative;
+   background-color: #569fa4;
+/*  background-image: url(../images/pexels-photo-156505.jpeg);
+  background-position: 0 -25px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 5px rgba(0,0,0,.25);*/
+}
+
+.blurb {
+  float: right;
+  max-width: 520px;
+  margin: 2em 0;
+  padding: 50px;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, .8);
+ /* box-shadow: 0 0 5px rgba(0,0,0,.25);*/
+}
+
+.test-filter {
+/*  background-color: blue;*/
+  height: 100%;
+/*  padding: 50px;*/
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    color: #fff;
+}
+
+.testimonials:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.15;
+    background-image: url(../images/pexels-photo-156505.jpeg);
+    background-repeat: no-repeat;
+    background-position: 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.testimonials h3 {
+  padding: 1em 0 .4em 0;
+  font-weight: normal;
+  font-size: 1.7em;
+  text-transform: uppercase;
+}
+
+.quotemark{
+  font-family: "Source Sans Pro", sans-serif;
+ /* font-size: 6em;*/
+  line-height: 0;
+  width: 10%;
+  max-width: 55px;
+  margin: 0 0 .2em 0;
+  opacity: 0.9;
+}
+
+.quote {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 1.5em 0;
+    border: 1px solid #fff;
+    border: 1px solid rgba(255,255,255,.6);
+    border-right: none;
+    border-left: none;
+    border-bottom: none;   
+}
+.quote p {
+  margin-bottom: .5em;
+ 
+}
+
+.quote:first-of-type {
+    border-top: none;
+  }
+
+.quotetext {
+  margin: 0;
+}
+
+.attribute {
+  font-size: .7em;
+}
+
+
+/* ------CONTACT FORM FOOTER-------*/
+
+footer {
+/*  background-color: #2D5974;*/
+}
+
+
+.control-group.error input.parsley-validated{
+    color: #b94a48 !important;
+    background-color: #f2dede !important;
+    border: 1px solid #EED3D7 !important;
+} 
+
+li.parsley-required, li.parsley-pattern, li.parsley-type{
+  color: #9ACCD0; 
+}
+
+
+.thankContainer {
+  visibility: hidden;
+  color:orange;
+/*  display: none;*/
+}
+
+.form-group h3{
+/*  text-align: center;
+  margin-top: 2em;
+  text-transform: uppercase;*/
+  text-align: center;
+    margin-top: 2em;
+    text-transform: uppercase;
+    font-weight: normal;
+    padding-bottom: 20px;
+    font-size: 1.5em;
+}
+
+
+
+.makeVisible {
+  visibility: visible;
+  color: yellow;
+  background-color: blue;
+}
+
+.form-group {
+      margin: 7% 0 3% 0;
+
+}
+
+
+#contactForm {
+  width: 50%;
+  margin:0 auto;
+
+}
+.form-control {
+    display: block;
+    width: 100%;
+    /*height: 34px;*/
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+/*    outline: none;*/
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.form-control:focus {
+    outline: none;
+
+}
+
+textarea#message.form-control {
+  /*height: 134px;*/
+
+
+}
+
+#contactForm .button {
+  width: 100%;
+  background-color: #DDE7E9;
+  color: #39696D;
+}
+
+.copyright {
+  font-size: smaller;
+  margin: .5em 0;
+}
+
+/* ----- SMALL SCREENS-------*/
+
+@media screen and (max-width: 768px) {
+
+/*  nav {
+      float: none;
+      text-align: center;
+      clear: both;
+      overflow: hidden;
+      padding:0;
+  }
+
+  nav a {
+    padding: 20px 30px 20px 0;
+  }*/
+
+}
+
+
+@media screen and (max-width: 790px) {
+  
+  body {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  nav {
+    float: none;
+    text-align: right;
+    display: none;
+    padding: 0 0 10px 0;
+    overflow: hidden;
+    width: 100%;
+  }
+  .showNav {
+    display: block;
+
+  }
+
+
+
+  nav li {
+    width: 100%;
+    font-size: 1em;
+
+  }
+
+  nav a {
+    padding:10px;
+  }
+
+  .blurb {
+    float: right;
+    padding: 5%;
+    max-width: 387px;
+  }
+
+  .info {
+    float: none;
+    width: 100%;
+    border-right: none;
+    border: 1px solid #A5ABAE;
+    border: 1px solid rgba(0,0,0,.15);
+    margin: 0;
+  }
+
+  .info:last-of-type {
+    border-bottom: none;
+    width: 100%;
+
+  }
+
+  .button, .button:visited {
+
+    display: inline-block;
+    padding: 12px 22px ;
+    width: 100%;
+  }
+
+  p {
+      margin: 7px 0 17px;
+  }
+
+.hamburger {
+  margin: 14px 0 0 0;
+  padding-top: .32em;
+  width: 2.5rem;
+  float: right;
+  /*background-color: yellow;*/
+  }
+
+.line {
+  width: 2.5rem;
+  height: .2525rem;
+  /*background: #E7E6DD;*/
+  background: #fff;
+  transition: 0.5s;
+  border-radius: 2.5rem;
+  margin-bottom: .32em;
+  opacity: 1;
+  transition: all 300ms ease-in-out;
+  outline: none;
+  }
+
+
+/* HAMBURGER TRANSFORM FROM TK SITE*/
+
+    /* Second line */
+  .activeX .line:nth-child(2) {
+    opacity: 0;
+
+  }
+
+  /* Top line */
+  .activeX .line:first-child {
+    width: 2rem;
+    transform: rotate(45deg);
+    /*transform-origin: 8px -2px;*/
+    transform-origin: 0 0;
+    /*background-color: yellow;*/
+
+  }
+
+  /* Bottom line */
+  .activeX .line:last-child {
+    width: 2rem;
+    transform: rotate(-46deg);
+    /*transform-origin: 4px 4px;*/
+    transform-origin: 4px 6px;
+    /*background-color: gray;*/
+  }
+
+  .slidingContent {
+    transform: translateY(172px);
+  }
+  /*END HAMBURGER TRANSFORM FROM TK SITE*/
+  p.tagline{
+    display: none;
+  }
+
+  .removeText {
+    display: none;
+
+  }
+
+
+
+}
+
+@media screen and (max-width: 690px) {
+
+
+
+  #contactForm {
+    width: 75%;
+  }
+
+  .fivesteps {
+    width: 100%;
+    margin: 1em 0 0 0;
+  }
+
+  .steps-list-container {
+    width: 100%;
+    margin: 0 0 2em 0;
+    padding: 0 3% 0 3%;
+  }
+
+  .steps-ul {
+    padding-left: 3em;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
