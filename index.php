@@ -28,11 +28,11 @@
       </div>
 
     <nav>
-      <li><a href="faqs.html">FAQs</a></li>
-      <li><a href="disposition-options.html">Disposition Options</a></li>
-      <li><a href="probate-glossary.html">Probate Glossary</a></li>
+      <li><a href="faqs.php">FAQs</a></li>
+      <li><a href="disposition-options.php">Disposition Options</a></li>
+      <li><a href="probate-glossary.php">Probate Glossary</a></li>
       <!-- <li><a href="probate-timeline.html">Timeline</a></li> -->
-      <li><a href="about-mnprobate.html">About</a></li>
+      <li><a href="contact.php">Contact</a></li>
     </nav>
   </header>
   <!-- second shadow header -->
@@ -46,10 +46,10 @@
       </div>
 
     <nav>
-      <li><a href="faqs.html">FAQs</a></li>
-      <li><a href="disposition-options.html">Disposition Options</a></li>
-      <li><a href="probate-glossary.html">Probate Glossary</a></li>
-      <li><a href="about-mnprobate.html">About</a></li>
+      <li><a href="faqs.php">FAQs</a></li>
+      <li><a href="disposition-options.php">Disposition Options</a></li>
+      <li><a href="probate-glossary.php">Probate Glossary</a></li>
+      <li><a href="contact.php">Contact</a></li>
     </nav>
   </header>
   <!-- end shadow header -->
@@ -150,7 +150,7 @@
             <div class="disposition-opener">
             <p>When dealing with a property as part of an estate, there are five main ways to handle it. Each option has its own pros and cons.</p>
 
-              <a class="button" href="fivesteps.html">See Pros & Cons</a>
+              <a class="button" href="five-steps.php">See Pros & Cons</a>
             </div>
             <div class="disposition-list-container">
               <ul class="steps-ul">
@@ -160,7 +160,7 @@
                 <li>4. Sell property after some updates</li>
                 <li>5. Sell property after full renovation</li>
               </ul>
-              <a class="button hiding" href="fivesteps.html">See Pros & Cons</a>
+              <a class="button hiding" href="five-steps.php">See Pros & Cons</a>
             </div>
         </section>  
   </div>

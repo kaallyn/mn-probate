@@ -28,11 +28,11 @@
       </div>
 
     <nav>
-      <li><a href="faqs.html">FAQs</a></li>
-      <li><a href="disposition-options.html">Disposition Options</a></li>
-      <li><a href="probate-glossary.html">Probate Glossary</a></li>
+      <li><a href="faqs.php">FAQs</a></li>
+      <li><a href="disposition-options.php">Disposition Options</a></li>
+      <li><a href="probate-glossary.php">Probate Glossary</a></li>
       <!-- <li><a href="probate-timeline.html">Timeline</a></li> -->
-      <li><a href="about-mnprobate.html">About</a></li>
+      <li><a href="contact.php">Contact</a></li>
     </nav>
   </header>
   <!-- second shadow header -->
@@ -46,10 +46,10 @@
       </div>
 
     <nav>
-      <li><a href="faqs.html">FAQs</a></li>
-      <li><a href="disposition-options.html">Disposition Options</a></li>
-      <li><a href="probate-glossary.html">Probate Glossary</a></li>
-      <li><a href="about-mnprobate.html">About</a></li>
+      <li><a href="faqs.php">FAQs</a></li>
+      <li><a href="disposition-options.php">Disposition Options</a></li>
+      <li><a href="probate-glossary.php">Probate Glossary</a></li>
+      <li><a href="contact.php">Contact</a></li>
     </nav>
   </header>
   <!-- end shadow header -->
@@ -71,7 +71,7 @@
   <!-- ============== BEGIN TESTIMONALS section ============== -->
   <div class="info-container subpage-header">
     <div class="test-filter">
-    <h2>This is potential H2 5 Steps to a Smooth Probate Real Estate Process</h2>
+    <h2>5 Steps to a Smooth Probate Real Estate Process</h2>
 <!--     <div class="quote">
       <img class = "quotemark" src="images/quotes-white.png" alt="quote mark">
       <div class="quotetext">

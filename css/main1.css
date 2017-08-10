@@ -112,10 +112,16 @@ footer p {
   margin: 0;
 }
 
+header {
+/*  background-color: blue;*/
+  visibility: hidden;
+}
+
 header.shadow {
 /*  background-color: yellow;*/
   position: fixed;
   width: 100%;
+  visibility: visible;
 }
 
 
@@ -141,7 +147,8 @@ nav a {
 }
 
 nav a:hover {
-  color: #9ACCD0;
+/*  color: #9ACCD0;*/
+  color: #D8E7E9;
 }
 
 header nav strong {
@@ -298,10 +305,14 @@ header nav strong {
 .steps-container .button{
 /*  width:30%;*/
     margin: 10% auto 0 auto;
-    background-color: #2D5974;
+    background-color: #577A90;
     color: #fff;
-    opacity: .8;
+/*    opacity: .8;*/
     font-size: 16px;
+}
+
+.steps-container .button:hover {
+  background-color: #2D5974;
 }
 
 /*DISPOSITION OPTIONS========================*/
@@ -345,6 +356,10 @@ header nav strong {
     background-color: #577A90;
     color: #fff;
     font-size: 16px;
+}
+
+.disposition-container .button:hover {
+  background-color: #2D5974;
 }
 
 .disposition-container .button.hiding{
@@ -555,6 +570,16 @@ textarea#message.form-control {
   color: #39696D;
 }
 
+#contactForm .button:hover {
+  background-color: #B5D9DC;
+}
+
+/*#contactForm .button.contactpage {
+  width: 100%;
+  background-color: #67BCC7;
+  color: #fff;
+}*/
+
 .copyright {
   font-size: smaller;
   margin: .5em 0;
@@ -654,10 +679,67 @@ textarea#message.form-control {
 
 }
 
-.subpage-list li {
+.subpage-bodytext li {
   list-style-type: circle;
   font-size: smaller;
+  margin-bottom: 3%;
 }
+
+.option {
+  width: 100%;
+/*  background-color: green;*/
+  clear:both;
+}
+
+.pros{
+  width: 47%;
+  display: inline-block;
+/*  background-color: yellow;*/
+  overflow: hidden;
+  vertical-align:top;
+  margin-right: 5%;
+}
+
+.cons{
+  width: 47%;
+  display: inline-block;
+/*  background-color: #67BCC7;*/
+  overflow: hidden;
+  vertical-align:top;
+/*  margin-left: 10%: */
+}
+
+.term-container {
+  border-top: : 1px solid #A5ABAE;
+  border-top: 1px solid rgba(0,0,0,.15);
+  padding-top: 3%;
+}
+
+.term {
+  width: 20%;
+  display: inline-block;
+/*  background-color: yellow;*/
+  overflow: hidden;
+  vertical-align:top;
+  margin-right: 5%;
+}
+
+.definition {
+  width: 74%;
+  display: inline-block;
+/*  background-color: #67BCC7;*/
+  overflow: hidden;
+  vertical-align:top;
+  font-size: smaller;
+/*  margin-left: 10%: */
+}
+
+.disclaimer {
+  font-size: smaller;
+  font-style: italic;
+  padding-top: 3%;
+}
+
 
 /* ----- SMALL SCREENS-------*/
 
@@ -779,8 +861,12 @@ textarea#message.form-control {
   .activeX .line:first-child {
     width: 2rem;
     transform: rotate(45deg);
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg);
     /*transform-origin: 8px -2px;*/
     transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
     /*background-color: yellow;*/
 
   }
@@ -789,8 +875,12 @@ textarea#message.form-control {
   .activeX .line:last-child {
     width: 2rem;
     transform: rotate(-46deg);
+    -ms-transform: rotate(-46deg); /* IE 9 */
+    -webkit-transform: rotate(-46deg);
     /*transform-origin: 4px 4px;*/
     transform-origin: 4px 6px;
+    -ms-transform-origin: 4px 6px;
+    -webkit-transform-origin: 4px 6px;
     /*background-color: gray;*/
   }
 
@@ -849,6 +939,11 @@ textarea#message.form-control {
     float: left;
     
   }
+  .subpage-bodytext li {
+  list-style-type: circle;
+  font-size: 1em;
+  margin-bottom: 1%;
+  }
 
 
 }
@@ -902,6 +997,22 @@ textarea#message.form-control {
     display: block;
     width: 100%
     
+  }
+
+  .pros {
+    width: 100%;
+  }
+
+  .cons {
+    width: 100%;
+  }
+
+  .term {
+    width: 100%;
+  }
+
+  .definition {
+    width: 100%;
   }
 
 }
