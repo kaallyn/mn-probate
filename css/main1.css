@@ -209,17 +209,18 @@ header nav strong {
 .blurb {
   float: right;
   max-width: 520px;
-  margin: 0 auto;
+/*  margin: 0 auto;*/
   padding: 50px;
   background-color: #fff;
   background-color: rgba(255, 255, 255, .8);
+  margin: 6%;
  /* box-shadow: 0 0 5px rgba(0,0,0,.25);*/
 }
 
 .banner {
   overflow: hidden;
 
-  background-image: url(../images/counsel-t2.jpg);
+  background-image: url(../images/counsel-t3.jpg);
   background-position: 0 -25px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -236,6 +237,33 @@ header nav strong {
     display: block;
   }
 
+.parallax-container {
+  position: relative;
+  overflow: hidden;
+/*  height: 500px;*/
+}
+
+.parallax-container .parallax {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.parallax-container .parallax img {
+  display: none;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
 /* Info Sections (Call to action columns)
    ================================================================ */
 .info {
@@ -382,12 +410,14 @@ header nav strong {
 .blurb {
   float: right;
   max-width: 520px;
-  margin: 2em 0;
+  margin: 3.5em 2em;
   padding: 50px;
   background-color: #fff;
   background-color: rgba(255, 255, 255, .8);
  /* box-shadow: 0 0 5px rgba(0,0,0,.25);*/
 }
+
+
 
 .test-filter {
 /*  background-color: blue;*/
@@ -621,7 +651,7 @@ textarea#message.form-control {
     height: 100%;
     z-index: 1;
     opacity: 0.15;
-    background-image: url(../images/texture-1479660_1920.jpg);
+    background-image: url(../images/texture-1479660_1920_2.jpg);
     background-repeat: no-repeat;
     background-position: 0;
     -ms-background-size: cover;

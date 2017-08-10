@@ -14,6 +14,7 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900" rel="stylesheet" type="text/css">
 
   <link rel="stylesheet" href="css/normalize.css">
+<!--   <link rel="stylesheet" href="css/materialize.css"> -->
   <link rel="stylesheet" href="css/main1.css">
 </head>
 
@@ -56,7 +57,20 @@
 
   <p class="tagline">Providing you with a valued resource in a difficult time.</p>
 
-  <section class="clearfix banner">
+
+    <div class="parallax-container">
+      <div class="parallax">
+        <div class="parallax-img"></div>
+        <img src="images/counsel-t6.jpg"></div>
+      <div class="blurb">
+        <h2>Enlist Our Expertise</h2>
+        <p> <span class="removeText">Let’s face it - probate real estate can be complicated.</span> Our experts can help navigate the probate process, while saving you time, money, and hassle.</p>
+        <a class="button" href="#contact" target="_top">Contact Us</a>
+      </div>
+    </div>
+
+
+<!--   <section class="clearfix banner ">
     <div class="bannerfilter clearfix">
       <div class="blurb">
         <h2>Enlist Our Expertise</h2>
@@ -64,7 +78,7 @@
         <a class="button" href="#contact" target="_top">Contact Us</a>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- ================= steps section -====================== -->
   <div class="steps-container">
@@ -217,6 +231,7 @@
 <!--   <script src="js/smoothscroll.js"></script> -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   <script src="js/vendor/parsley.min.js"></script>
+  <script src="js/vendor/materialize.js"></script>
   <script>
       $(document).ready(function(){
         $("#contactForm").submit(function(event){
