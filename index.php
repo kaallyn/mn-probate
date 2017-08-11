@@ -55,30 +55,22 @@
   </header>
   <!-- end shadow header -->
 
-  <p class="tagline">Providing you with a valued resource in a difficult time.</p>
+<!--   <p class="tagline">Providing you with a valued resource in a difficult time.</p> -->
 
 
     <div class="parallax-container">
       <div class="parallax">
         <div class="parallax-img"></div>
         <img src="images/counsel-t6.jpg"></div>
-      <div class="blurb">
-        <h2>Enlist Our Expertise</h2>
-        <p> <span class="removeText">Let’s face it - probate real estate can be complicated.</span> Our experts can help navigate the probate process, while saving you time, money, and hassle.</p>
-        <a class="button" href="#contact" target="_top">Contact Us</a>
-      </div>
+       <div class="hero-filter">
+        <div class="blurb">
+          <h2>Enlist Our Expertise</h2>
+          <p> <span class="removeText">Let’s face it - probate real estate can be complicated.</span> Our experts can help navigate the probate process, while saving you time, money, and hassle.</p>
+          <a class="button" href="#contact" target="_top">Contact Us</a>
+        </div>
+      </div> 
     </div>
 
-
-<!--   <section class="clearfix banner ">
-    <div class="bannerfilter clearfix">
-      <div class="blurb">
-        <h2>Enlist Our Expertise</h2>
-        <p> <span class="removeText">Let’s face it - probate real estate can be complicated.</span> Our experts can help navigate the probate process, while saving you time, money, and hassle.</p>
-        <a class="button" href="#contact" target="_top">Contact Us</a>
-      </div>
-    </div>
-  </section> -->
 
   <!-- ================= steps section -====================== -->
   <div class="steps-container">
@@ -105,57 +97,36 @@
 
   <!-- ============== end steps section ============== -->
 
-  <!-- ================= DISPOSITION section -====================== -->
-<!--   <div class="disposition-container">
-    
-
-      <section class="steps-text">
-      <h3>Disposition Options</h3>
-            <div class="disposition-opener">
-            <p>When dealing with a property as part of an estate, there are five main ways to handle it. Each option has its own pros and cons.</p>
-              <a class="button" href="fivesteps.html">See Pros &amp; Cons</a>
-            </div>
-            <div class="disposition-list-container">
-              <ul class="steps-ul">
-                <li>1. Keep the property</li>
-                <li>2. Sell property to family member</li>
-                <li>3. Sell property in "as-is" condition</li>
-                <li>4. Sell property after some updates</li>
-                <li>5. Sell property after full renovation</li>
-              </ul>
-
-            </div>
-        </section>  
-  </div> -->
-
-
-  <!-- ============== end DISPONSITION section ============== -->
-
-
+ 
   <!-- ============== BEGIN TESTIMONALS section ============== -->
-  <div class="info-container testimonials">
-    <div class="test-filter">
-    <h3>What Our Clients are Saying</h3>
-    <div class="quote">
-      <img class = "quotemark" src="images/quotes-white.png" alt="quote mark">
-      <div class="quotetext">
-        <p>Steve was a blessing to our family in a very difficult time. Thank you for making a stressful time not so stressful.</p>
-        <p class="attribute">– Client from Elk River</p>
-      </div>
-    </div>
+  <div class="parallax-container">
+    <div class="parallax">
+      <div class="parallax-img"></div>
+      <img src="images/pexels-photo-156505.jpeg"></div>
+    <div class="info-container testimonials">
+      <div class="test-filter">
+      <h3>What Our Clients are Saying</h3>
+        <div class="quote">
+          <img class = "quotemark" src="images/quotes-white.png" alt="quote mark">
+          <div class="quotetext">
+            <p>Steve was a blessing to our family in a very difficult time. Thank you for making a stressful time not so stressful.</p>
+            <p class="attribute">– Client from Elk River</p>
+          </div>
+        </div>
 
-    <div class="quote">
-      <img class = "quotemark" src="images/quotes-white.png" alt="quote mark">
-      <div class="quotetext">
-        <p>Steve will go above and beyond for his client... I wouldn't trust or go to anyone else!</p>
-        <p class="attribute">– Client from St. Paul</p>
+        <div class="quote">
+          <img class = "quotemark" src="images/quotes-white.png" alt="quote mark">
+          <div class="quotetext">
+            <p>Steve will go above and beyond for his client... I wouldn't trust or go to anyone else!</p>
+            <p class="attribute">– Client from St. Paul</p>
+          </div>
+        </div>
       </div>
-    </div>
     </div>
   </div>
 <!-- ============== END TESTIMONALS section ============== -->
 
-<!-- ================= GLOSSARY section -====================== -->
+<!-- ================= DISPONSITION section -====================== -->
   <div class="disposition-container">
     
 
@@ -185,37 +156,36 @@
 
 
   <footer>
-
     <!-- BEGIN CONTACT FORM -->
-  <div class="form-group col-md-6 col-md-offset-3">
-        <a id="contact" class="anchor">anchor text [invisible]</a>
-        <h3>Contact Us</h3>
+    <div class="form-group col-md-6 col-md-offset-3">
+      <a id="contact" class="anchor">anchor text [invisible]</a>
+      <h3>Contact Us</h3>
 
-        <form id="contactForm" data-parsley-validate>
-            <p>Name:</p>
-            <input class="form-control" type="text" data-parsley-errors-container="#element" data-parsley-trigger="change" name="name" id="name" data-parsley-required="true"/>
-            <br />
-            <p>Phone:</p>
-            <input class="form-control" type="text" name="phone" id="phone" data-parsley-trigger="change" data-parsley-pattern="^[\d\+\-\.\(\)\/\s]*$"  data-parsley-required="true" />
-            <br />
-            <p>E-Mail:</p>
-            <input class="form-control" type="text" name="email" id="email" data-parsley-trigger="change" data-parsley-type="email"required   />
-            <br />
-            <p>Message:</p>
-            <textarea class="form-control" type="text" name="message" rows="4"  data-parsley-trigger="change" id="message" placeholder="" ></textarea>
-            <br /><br />
+      <form id="contactForm" data-parsley-validate>
+        <p>Name:</p>
+        <input class="form-control" type="text" data-parsley-errors-container="#element" data-parsley-trigger="change" name="name" id="name" data-parsley-required="true"/>
+        <br />
+        <p>Phone:</p>
+        <input class="form-control" type="text" name="phone" id="phone" data-parsley-trigger="change" data-parsley-pattern="^[\d\+\-\.\(\)\/\s]*$"  data-parsley-required="true" />
+        <br />
+        <p>E-Mail:</p>
+        <input class="form-control" type="text" name="email" id="email" data-parsley-trigger="change" data-parsley-type="email"required   />
+        <br />
+        <p>Message:</p>
+        <textarea class="form-control" type="text" name="message" rows="4"  data-parsley-trigger="change" id="message" placeholder="" ></textarea>
+        <br /><br />
 
-            <button type="submit" class="button">Submit</button>
-            <div class="thankContainer">
-                <p>Thanks for reaching out! We will be in touch with you shortly.</p>
-            </div>
+        <button type="submit" class="button">Submit</button>
+        <div class="thankContainer">
+            <p>Thanks for reaching out! We will be in touch with you shortly.</p>
+        </div>
 
-            <input type="hidden" name="*honeypot" />
-            <input type="hidden" name="*reply" value="user@enformed.io" />
-            <input type="hidden" name="*subject" value="Form Submission from MNProbate.com" />
-            <input type="hidden" name="*redirect" value="https://www.yoursite.com" />
-            </form>
-  </div>
+        <input type="hidden" name="*honeypot" />
+        <input type="hidden" name="*reply" value="user@enformed.io" />
+        <input type="hidden" name="*subject" value="Form Submission from MNProbate.com" />
+        <input type="hidden" name="*redirect" value="https://www.yoursite.com" />
+      </form>
+    </div>
 
 <!-- END CONTACT FORM -->
     <div class="copyright">
