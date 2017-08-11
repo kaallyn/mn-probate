@@ -55,13 +55,11 @@
   </header>
   <!-- end shadow header -->
 
-<!--   <p class="tagline">Providing you with a valued resource in a difficult time.</p> -->
-
 
     <div class="parallax-container">
       <div class="parallax">
         <div class="parallax-img"></div>
-        <img src="images/counsel-t6.jpg"></div>
+        <img src="images/counsel-t11.jpg"></div>
        <div class="hero-filter">
         <div class="blurb">
           <h2>Enlist Our Expertise</h2>
@@ -102,7 +100,7 @@
   <div class="parallax-container">
     <div class="parallax">
       <div class="parallax-img"></div>
-      <img src="images/pexels-photo-156505.jpeg"></div>
+      <img src="images/pexels-photo-156505-t2.jpg"></div>
     <div class="info-container testimonials">
       <div class="test-filter">
       <h3>What Our Clients are Saying</h3>
