@@ -377,7 +377,7 @@ header nav strong {
   max-width: 1200px;
   display:block;
   clear:both;
-  margin: 25px auto 0 auto;
+  margin: 25px auto 25px auto;
   padding: 5% 6%;
 }
 
@@ -399,7 +399,7 @@ header nav strong {
 }
 
 .icon-column {
-  width: 32%;
+  width: 32.27%;
   display: inline-block;
 /*  border: 2px solid black;*/
   /*text-align: center;*/
@@ -473,19 +473,6 @@ header nav strong {
   cursor: pointer;
 }
 
-/*.card.small, .card.medium, .card.large {
-  position: relative;
-}*/
-
-/*.card.small .card-image, .card.medium .card-image, .card.large .card-image {
-  max-height: 60%;
-  overflow: hidden;
-}*/
-
-/*.card.small .card-image + .card-content, .card.medium .card-image + .card-content, .card.large .card-image + .card-content {
-  max-height: 40%;
-}*/
-
 .card.small .card-content {
   max-height: 100%;
   overflow: hidden;
@@ -502,64 +489,6 @@ header nav strong {
   height: 300px;
 }
 
-/*.card.medium {
-  height: 400px;
-}
-
-.card.large {
-  height: 500px;
-}*/
-
-/*.card.horizontal {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}*/
-
-/*.card.horizontal.small .card-image, .card.horizontal.medium .card-image, .card.horizontal.large .card-image {
-  height: 100%;
-  max-height: none;
-}
-
-.card.horizontal.small .card-image img, .card.horizontal.medium .card-image img, .card.horizontal.large .card-image img {
-  height: 100%;
-}
-
-.card.horizontal .card-image {
-  max-width: 50%;
-}
-
-.card.horizontal .card-image img {
-  border-radius: 2px 0 0 2px;
-  max-width: 100%;
-  width: auto;
-}
-
-.card.horizontal .card-stacked {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  position: relative;
-}
-
-.card.horizontal .card-stacked .card-content {
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-}*/
-
 .card.sticky-action .card-action {
   z-index: 2;
 }
@@ -572,30 +501,6 @@ header nav strong {
 .card .card-image {
   position: relative;
 }
-
-/*.card .card-image img {
-  display: block;
-  border-radius: 2px 2px 0 0;
-  position: relative;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-}*/
-
-/*.card .card-image .card-title {
-  color: #fff;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  max-width: 100%;
-  padding: 24px;
-}*/
-
-/*.card-content a {
-  color: blue;
-}*/
 
 .card .card-content {
   padding: 24px;
@@ -617,29 +522,6 @@ header nav strong {
 .card .card-content .card-title i {
   line-height: 32px;
 }
-
-/*.card .card-action {
-  position: relative;
-  background-color: inherit;
-  border-top: 1px solid rgba(160, 160, 160, 0.2);
-  padding: 16px 24px;
-}*/
-
-/*.card .card-action:last-child {
-  border-radius: 0 0 2px 2px;
-}
-
-.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
-  color: #ffab40;
-  margin-right: 24px;
-  -webkit-transition: color .3s ease;
-  transition: color .3s ease;
-  text-transform: uppercase;
-}
-
-.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
-  color: #ffd8a6;
-}*/
 
 .card .card-reveal {
   padding: 24px;
@@ -670,7 +552,7 @@ header nav strong {
 /*TESTIMONIALS========================*/
 .testimonials {
   overflow: hidden;
-  padding: 6%;
+  padding: 8%;
   position: relative;
   background-color: #569fa4;
   background-color: rgba(14, 118, 126, .9);
@@ -1132,6 +1014,10 @@ li.parsley-required, li.parsley-pattern, li.parsley-type{
     font-size: 1em;
     margin-bottom: 1%;
   }
+
+  .icon-column p {
+    font-size: .93em;
+  }
 }
 
 @media screen and (max-width: 690px) {
@@ -1201,12 +1087,33 @@ li.parsley-required, li.parsley-pattern, li.parsley-type{
     width: 100%;
   }
 
+  .icon-column {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .icon-column:last-child {
+    margin: 0 auto;
+  }
+
+  .card.small {
+     height: auto; 
+  }
+
+}
+
+@media screen and (max-width: 420px) {
+  .icon-column {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 360px) {
   h1 {
     font-size: 1em;
   }
+
 }
 
 
