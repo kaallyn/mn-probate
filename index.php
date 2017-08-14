@@ -13,8 +13,11 @@
 
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900" rel="stylesheet" type="text/css">
 
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
   <link rel="stylesheet" href="css/normalize.css">
 <!--   <link rel="stylesheet" href="css/materialize.css"> -->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/main1.css">
 </head>
 
@@ -122,32 +125,83 @@
       </div>
     </div>
   </div>
-<!-- ============== END TESTIMONALS section ============== -->
 
-<!-- ================= DISPONSITION section -====================== -->
-  <div class="disposition-container">
+<!-- ================= 3 ICONS section -====================== -->
+  <div class="icons-section-container">
     
 
-      <section class="steps-text">
-      <h3>Disposition Options</h3>
-            <div class="disposition-opener">
-            <p>When dealing with a property as part of an estate, there are five main ways to handle it. Each option has its own pros and cons.</p>
+    <section class="steps-text">
+      <h3>DISPOSITION OPTIONS</h3>
+        <div class="icons-opener">
+          <p>When dealing with a property as part of an estate, there are different to handle it. Each option has its own pros and cons, and we'll work with you to find the best solution for your individual circumstances.</p>
+        </div>
 
-              <a class="button" href="five-steps.php">See Pros & Cons</a>
+        <div class="three-icons">
+          <div class="icon-column">
+            <div class="card small">
+              <div class="card-image waves-effect waves-block waves-light">
+                <div class="square">
+                  <i class="fa fa-key"></i>
+                </div>
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Keep It<i class="material-icons right">more_vert</i></span>
+                <p><a href="#">This is a link</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Keep It<i class="material-icons right">close</i></span>
+                <p class="card-option">Pro:</p>
+                <p class="option-description">Easy to do if property is already an income producing property.</p>
+                <p class="card-option">Con:</p>
+                <p class="option-description">Eventually it will have to be sold so the estate can be closed.</p>
+              </div>
             </div>
-            <div class="disposition-list-container">
-              <ul class="steps-ul">
-                <li>1. Keep the property</li>
-                <li>2. Sell property to family member</li>
-                <li>3. Sell property in "as-is" condition</li>
-                <li>4. Sell property after some updates</li>
-                <li>5. Sell property after full renovation</li>
-              </ul>
-              <a class="button hiding" href="five-steps.php">See Pros & Cons</a>
+          </div>
+          <div class="icon-column">
+            <div class="card small">
+              <div class="card-image waves-effect waves-block waves-light">
+                <div class="square">
+                  <i class="fa fa-handshake-o"></i>
+                </div>
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Sell As-Is <i class="material-icons right">more_vert</i></span>
+                <p><a href="#">This is a link</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Sell As-Is <i class="material-icons right">close</i></span>
+                <p class="card-option">Pro:</p>
+                <p class="option-description">Quickest access to house equity.</p>
+                <p class="card-option">Con:</p>
+                <p class="option-description">Typically lowest price received.</p>
+              </div>
             </div>
-        </section>  
+          </div>
+          <div class="icon-column">
+            <div class="card small">
+              <div class="card-image waves-effect waves-block waves-light">
+                <div class="square">
+                  <i class="fa fa-magic"></i>
+                </div>
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Renovate
+                  <i class="material-icons right">more_vert</i>
+                </span>
+                <p><a href="#">This is a link</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Renovate<i class="material-icons right">close</i></span>
+                <p class="card-option">Pro:</p>
+                <p class="option-description">Probable highest sales price.</p>
+                <p class="card-option">Con:</p>
+                <p class="option-description">Highest amount of work for the estate.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>  
   </div>
-
 
   <!-- ============== end DISPONSITION section ============== -->
 

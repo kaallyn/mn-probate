@@ -157,7 +157,7 @@
                 <p>Cons:</p>
                 <ul class="cons-list">
                   <li>Highest amount of work for the estate</li>
-                  <li>If not done properly, it could drain the </li>
+                  <li>If not done properly, it could drain the estate.</li>
                 </ul> 
               </div>
             </div>
