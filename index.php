@@ -214,15 +214,26 @@
       <h3>Contact Us</h3>
 
       <form id="contactForm" data-parsley-validate>
-        <p>Name:</p>
-        <input class="form-control" type="text" data-parsley-errors-container="#element" data-parsley-trigger="change" name="name" id="name" data-parsley-required="true"/>
-        <br />
-        <p>Phone:</p>
-        <input class="form-control" type="text" name="phone" id="phone" data-parsley-trigger="change" data-parsley-pattern="^[\d\+\-\.\(\)\/\s]*$"  data-parsley-required="true" />
-        <br />
-        <p>E-Mail:</p>
-        <input class="form-control" type="text" name="email" id="email" data-parsley-trigger="change" data-parsley-type="email"required   />
-        <br />
+        <div class="form-column">
+        <p>First Name:</p>
+          <input class="form-control" type="text" data-parsley-errors-container="#element" data-parsley-trigger="change" name="firstname" id="firstname" data-parsley-required="true"/>
+          <br />
+        </div>
+        <div class="form-column">
+          <p>Last Name:</p>
+          <input class="form-control" type="text" data-parsley-errors-container="#element" data-parsley-trigger="change" name="lastname" id="lastname" data-parsley-required="true"/>
+          <br />
+        </div>
+        <div class="form-column">
+          <p>Phone:</p>
+          <input class="form-control" type="text" name="phone" id="phone" data-parsley-trigger="change" data-parsley-pattern="^[\d\+\-\.\(\)\/\s]*$"  data-parsley-required="true" />
+          <br />
+        </div>
+        <div class="form-column">
+          <p>E-Mail:</p>
+          <input class="form-control" type="text" name="email" id="email" data-parsley-trigger="change" data-parsley-type="email"required   />
+          <br />
+        </div>
         <p>Message:</p>
         <textarea class="form-control" type="text" name="message" rows="4"  data-parsley-trigger="change" id="message" placeholder="" ></textarea>
         <br /><br />

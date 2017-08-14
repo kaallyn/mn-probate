@@ -286,22 +286,22 @@ header nav strong {
   padding: 0 0 0 3%;
 }
 .fivesteps {
-  float: left;
-  width: 60%;
+  /*float: left;*/
+/*  width: 60%;*/
   margin: 25px 0;
-  padding: 3%;
+  padding: 2% 3% 0 3%;
 }
 
 .steps-list-container {
-  float: left;
-  width: 40%;
-  margin: 25px 0;
-  padding: 3% 3% 0 3%;
+/*  float: left;
+  width: 40%;*/
+  margin: 0 0 25px 0;
+  padding: 0 3% 2% 3%;
 }
 
 .steps-ul {
-  padding: 0 ;
-  margin: 0;
+  margin-left: 3em;
+  /*padding: 0 3% 0 3%;*/
 }
 
 
@@ -310,10 +310,10 @@ header nav strong {
 }
 
 .steps-container .button{
-    margin: 10% auto 0 auto;
+    margin: 7% auto 0 auto;
     background-color: #577A90;
     color: #fff;
-    font-size: 16px;
+    width: 50%
 }
 
 .steps-container .button:hover {
@@ -385,7 +385,6 @@ header nav strong {
   color: #2D5974;
   font-weight: normal;
   font-size: 1.75em;
-  padding: .4em 0 0 0;
   padding-left: 3%;
 }
 
@@ -399,7 +398,7 @@ header nav strong {
 }
 
 .icon-column {
-  width: 32.27%;
+  width: 32.26%;
   display: inline-block;
 /*  border: 2px solid black;*/
   /*text-align: center;*/
@@ -591,7 +590,7 @@ header nav strong {
 }
 
 .testimonials h3 {
-  padding: 1em 0 .4em 0;
+  padding: 0 0 .4em 0;
   font-weight: normal;
   font-size: 1.7em;
   text-transform: uppercase;
@@ -664,13 +663,27 @@ li.parsley-required, li.parsley-pattern, li.parsley-type{
    visibility:hidden;
 }
 
+.form-column {
+  width: 47.7%;
+  display: inline-block;
+}
+
+.form-column:nth-child(odd) {
+  margin-right: 4%;
+}
+
+.form-group {
+  max-width: 1107px;
+  margin: auto;
+}
+
 .form-group h3{
   text-align: center;
-  margin-top: 1em;
+  margin-top: 1.3em;
   text-transform: uppercase;
   font-weight: normal;
   padding-bottom: 20px;
-  font-size: 1.5em;
+  font-size: 1.75em;
   line-height: 1em;
 }
 
@@ -679,14 +692,16 @@ li.parsley-required, li.parsley-pattern, li.parsley-type{
 }
 
 #contactForm {
-  width: 50%;
-  margin:0 auto;
+/*  width: 50%;*/
+  margin: 0 auto;
+  padding: 4% 6% 0 6%;
 }
 
 .form-control {
   display: block;
   width: 100%;
-  padding: 6px 12px;
+  margin-top: .9em;
+  padding: 10px 12px;
   font-size: 14px;
   line-height: 1.42857143;
   color: #555;
@@ -706,18 +721,21 @@ li.parsley-required, li.parsley-pattern, li.parsley-type{
 }
 
 #contactForm .button {
-  width: 100%;
-  background-color: #DDE7E9;
+  width: 47.7%;
+  background-color: #B5D9DC;
   color: #39696D;
+  margin: auto;
+  /*float:right ;*/
 }
 
 #contactForm .button:hover {
-  background-color: #B5D9DC;
+  background-color: #CBE4E6;
 }
 
 .copyright {
   font-size: smaller;
   margin: .5em 0;
+  text-align: center;
 }
 
 /*-------- SUB PAGE ARTICLES --------*/
@@ -901,7 +919,7 @@ li.parsley-required, li.parsley-pattern, li.parsley-type{
 
   .button, .button:visited {
 
-    display: inline-block;
+    /*display: inline-block;*/
     padding: 12px 22px ;
     width: 100%;
   }
@@ -978,8 +996,15 @@ li.parsley-required, li.parsley-pattern, li.parsley-type{
     padding: 0 3% 0 3%;
   }
 
+  .steps-container h3, .icons-section-container h3 {
+    /*text-align: center;*/
+  }
+
   .steps-container .button {
-    width: 62%
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
 
   .steps-ul {
@@ -1026,7 +1051,7 @@ li.parsley-required, li.parsley-pattern, li.parsley-type{
   }
 
   #contactForm {
-    width: 75%;
+   /* width: 75%;*/
   }
 
   .fivesteps {
@@ -1053,22 +1078,6 @@ li.parsley-required, li.parsley-pattern, li.parsley-type{
     width: 100%;
     margin: 1em 0 0 0;
     padding: 3%;
-  }
-
-  .disposition-list-container {
-    float: left;
-    width: 100%;
-    margin: 0 0 2em 0;
-    padding: 0 3% 0 3%;
-  }
-
-  .disposition-container .button {
-    display: none; 
-  }
-
-  .disposition-container .button.hiding{
-    display: block;
-    width: 100%   
   }
 
   .pros {
@@ -1100,6 +1109,11 @@ li.parsley-required, li.parsley-pattern, li.parsley-type{
   .card.small {
      height: auto; 
   }
+
+  .form-column {
+    width: 100%;
+    display: inline-block;
+}
 
 }
 
