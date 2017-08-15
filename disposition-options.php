@@ -63,115 +63,114 @@
   </div>
 
   <!-- END HEADING SECTION-->
+  <div class="full-width-wrapper">
+    <div class="subpage-container">
+        <section class="steps-text">
 
-<div class="subpage-container">
-    
+            <div class="subpage-bodytext">
+              <p>When dealing with a property as part of an estate, there are five main ways to handle it.  Here are the areas in general and some pros and cons of each.</p>
 
-      <section class="steps-text">
-
-          <div class="subpage-bodytext">
-            <p>When dealing with a property as part of an estate, there are five main ways to handle it.  Here are the areas in general and some pros and cons of each.</p>
-
-            <div class="option">
-            <h3>1. Keep the property</h3>
-              <div class="pros">
-                <p>Pros:</p>
-                <ul class="pros-list">
-                  <li>Easy to do if property is already an income producing property</li>
-                  <li>Generates income for the estate while rest of the estate is settled</li>
-                  <li>Don’t have to worry about removing tenant in the short term</li>
-                </ul> 
+              <div class="option">
+              <h3>1. Keep the property</h3>
+                <div class="pros">
+                  <p>Pros:</p>
+                  <ul class="pros-list">
+                    <li>Easy to do if property is already an income producing property</li>
+                    <li>Generates income for the estate while rest of the estate is settled</li>
+                    <li>Don’t have to worry about removing tenant in the short term</li>
+                  </ul> 
+                </div>
+                <div class="cons">
+                  <p>Cons:</p>
+                  <ul class="cons-list">
+                    <li>Someone has to manage it or estate has to pay for a management company</li>
+                    <li>Eventually it will have to be valued and sold to another investor or owner occupant so the estate can be closed</li>
+                  </ul> 
+                </div>
               </div>
-              <div class="cons">
-                <p>Cons:</p>
-                <ul class="cons-list">
-                  <li>Someone has to manage it or estate has to pay for a management company</li>
-                  <li>Eventually it will have to be valued and sold to another investor or owner occupant so the estate can be closed</li>
-                </ul> 
+
+              <div class="option">
+              <h3>2. Sell property to family member</h3>
+                <div class="pros">
+                  <p>Pros:</p>
+                  <ul class="pros-list">
+                    <li>Might be excluded from some property disclosure and TISH / POS requirements </li>
+                    <li>Avoid many transactional costs</li>
+                  </ul> 
+                </div>
+                <div class="cons">
+                  <p>Cons:</p>
+                  <ul class="cons-list">
+                    <li>Might cause some stress with family members who did not get the house</li>
+                    <li>PR might feel the need to discount the price because of family and that might be against the fiduciary duties</li>
+                  </ul> 
+                </div>
               </div>
+
+              <div class="option">
+              <h3>3. Sell property in “as-is” condition</h3>
+                <div class="pros">
+                  <p>Pros:</p>
+                  <ul class="pros-list">
+                    <li>Quickest access to house equity</li>
+                    <li>Least amount of time and effort prior to sale</li>
+                  </ul> 
+                </div>
+                <div class="cons">
+                  <p>Cons:</p>
+                  <ul class="cons-list">
+                    <li>Typically lowest price received</li>
+                    <li>Smaller buyer pool</li>
+                  </ul> 
+                </div>
+              </div>
+
+              <div class="option">
+              <h3>4. Sell property after some updates</h3>
+                <div class="pros">
+                  <p>Pros:</p>
+                  <ul class="pros-list">
+                    <li>Balances prep time and equity received for the estate</li>
+                    <li>Largest buyer pool</li>
+                  </ul> 
+                </div>
+                <div class="cons">
+                  <p>Cons:</p>
+                  <ul class="cons-list">
+                    <li>Need a budget to pay for updates</li>
+                    <li>Need access to trust, qualified remodelers</li>
+                  </ul> 
+                </div>
+              </div>
+
+              <div class="option">
+              <h3>5. Sell property after full renovation</h3>
+                <div class="pros">
+                  <p>Pros:</p>
+                  <ul class="pros-list">
+                    <li>Probable highest sales price</li>
+                  </ul> 
+                </div>
+                <div class="cons">
+                  <p>Cons:</p>
+                  <ul class="cons-list">
+                    <li>Highest amount of work for the estate</li>
+                    <li>If not done properly, it could drain the estate.</li>
+                  </ul> 
+                </div>
+              </div>
+
+
             </div>
-
-            <div class="option">
-            <h3>2. Sell property to family member</h3>
-              <div class="pros">
-                <p>Pros:</p>
-                <ul class="pros-list">
-                  <li>Might be excluded from some property disclosure and TISH / POS requirements </li>
-                  <li>Avoid many transactional costs</li>
-                </ul> 
-              </div>
-              <div class="cons">
-                <p>Cons:</p>
-                <ul class="cons-list">
-                  <li>Might cause some stress with family members who did not get the house</li>
-                  <li>PR might feel the need to discount the price because of family and that might be against the fiduciary duties</li>
-                </ul> 
-              </div>
-            </div>
-
-            <div class="option">
-            <h3>3. Sell property in “as-is” condition</h3>
-              <div class="pros">
-                <p>Pros:</p>
-                <ul class="pros-list">
-                  <li>Quickest access to house equity</li>
-                  <li>Least amount of time and effort prior to sale</li>
-                </ul> 
-              </div>
-              <div class="cons">
-                <p>Cons:</p>
-                <ul class="cons-list">
-                  <li>Typically lowest price received</li>
-                  <li>Smaller buyer pool</li>
-                </ul> 
-              </div>
-            </div>
-
-            <div class="option">
-            <h3>4. Sell property after some updates</h3>
-              <div class="pros">
-                <p>Pros:</p>
-                <ul class="pros-list">
-                  <li>Balances prep time and equity received for the estate</li>
-                  <li>Largest buyer pool</li>
-                </ul> 
-              </div>
-              <div class="cons">
-                <p>Cons:</p>
-                <ul class="cons-list">
-                  <li>Need a budget to pay for updates</li>
-                  <li>Need access to trust, qualified remodelers</li>
-                </ul> 
-              </div>
-            </div>
-
-            <div class="option">
-            <h3>5. Sell property after full renovation</h3>
-              <div class="pros">
-                <p>Pros:</p>
-                <ul class="pros-list">
-                  <li>Probable highest sales price</li>
-                </ul> 
-              </div>
-              <div class="cons">
-                <p>Cons:</p>
-                <ul class="cons-list">
-                  <li>Highest amount of work for the estate</li>
-                  <li>If not done properly, it could drain the estate.</li>
-                </ul> 
-              </div>
-            </div>
-
-
-          </div>
-        </section>  
+          </section>  
+    </div>
   </div>
 
   <!-- END TEXT SECTION-->
 
   <footer>
     <div class="copyright">
-      <p>© 2017 Wilhelmy Homes</p>
+      <p>&copy; 2017 Wilhelmy Homes</p>
     </div>
   </footer>
 

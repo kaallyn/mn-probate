@@ -63,40 +63,38 @@
   </div>
 
   <!-- END HEADING SECTION-->
+  <div class="full-width-wrapper">
+    <div class="subpage-container">
+        <section class="steps-text">
 
-  <div class="subpage-container">
-    
+              <div class="subpage-bodytext">
+              <h3>Realtor Team</h3>
+              <p>Steve Wilhelmy is the lead agent on our probate team.  Steve has over 10 years of full time real estate experience dealing with some of the most complex residential real estate transactions in the area.  Steve will call on his experience and education to make sure you have amazing results with the least amount of stress as possible</p>
 
-      <section class="steps-text">
+              <h3>Marketing Team</h3>
+              <p>When it is time to get the house on the market, you will be able to rely on our world class marketing services to make sure the house is properly marketed to the largest number of potential buyers.</p>
 
-            <div class="subpage-bodytext">
-            <h3>Realtor Team</h3>
-            <p>Steve Wilhelmy is the lead agent on our probate team.  Steve has over 10 years of full time real estate experience dealing with some of the most complex residential real estate transactions in the area.  Steve will call on his experience and education to make sure you have amazing results with the least amount of stress as possible</p>
+              <h3>Title Team</h3>
+              <p>Probate transactions can be more complex than a traditional real estate transaction.  We have partnered with a company that has a wealth of experience in this area and does a tremendous job working through the complexities of the transaction to make sure nothing slips through the cracks.</p>
 
-            <h3>Marketing Team</h3>
-            <p>When it is time to get the house on the market, you will be able to rely on our world class marketing services to make sure the house is properly marketed to the largest number of potential buyers.</p>
+              <h3>Attorney and Staff</h3>
+              <p>Most of the people we work with already have an attorney and we work with many of the best in the area.  If you are not represented by an attorney and you have questions for them, please fill out our contact page and we will send you a list of well qualified attorneys. </p>
 
-            <h3>Title Team</h3>
-            <p>Probate transactions can be more complex than a traditional real estate transaction.  We have partnered with a company that has a wealth of experience in this area and does a tremendous job working through the complexities of the transaction to make sure nothing slips through the cracks.</p>
+              <h3>Personal Property Teams</h3>
+              <p>We have several options and teams for you to consider when the decision is made to donate, sell or get rid of the personal property that is in the house.</p>
 
-            <h3>Attorney and Staff</h3>
-            <p>Most of the people we work with already have an attorney and we work with many of the best in the area.  If you are not represented by an attorney and you have questions for them, please fill out our contact page and we will send you a list of well qualified attorneys. </p>
+              <h3>Other service providers</h3>
+              <p>Need someone to paint the house, take care of the lawn, repair a broken door, etc…  We have great folks that we can refer you to that will do a top notch job for a reasonable price. </p>
 
-            <h3>Personal Property Teams</h3>
-            <p>We have several options and teams for you to consider when the decision is made to donate, sell or get rid of the personal property that is in the house.</p>
-
-            <h3>Other service providers</h3>
-            <p>Need someone to paint the house, take care of the lawn, repair a broken door, etc…  We have great folks that we can refer you to that will do a top notch job for a reasonable price. </p>
-
-            </div>
-        </section>  
+              </div>
+          </section>  
+    </div>
   </div>
-
   <!-- END TEXT SECTION-->
 
   <footer>
     <div class="copyright">
-      <p>© 2017 Wilhelmy Homes</p>
+      <p>&copy; 2017 Wilhelmy Homes</p>
     </div>
   </footer>
 

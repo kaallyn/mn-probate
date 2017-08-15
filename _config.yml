@@ -58,5 +58,3 @@ jquery:
 
 jquery_validate:
   version:        1.13.1
-
-theme: jekyll-theme-cayman

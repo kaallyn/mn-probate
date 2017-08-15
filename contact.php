@@ -67,41 +67,42 @@
 
 
   <!-- END TEXT SECTION-->
+  <div class="full-width-wrapper">
+    <div class="form-group col-md-6 col-md-offset-3">
+      <a id="contact" class="anchor">anchor text [invisible]</a>
+      <h3>Contact Us</h3>
 
-  <div class="form-group col-md-6 col-md-offset-3">
-        <a id="contact" class="anchor">anchor text [invisible]</a>
-        <h3>Contact Us</h3>
+      <form id="contactForm" data-parsley-validate="" novalidate="">
+          <p>Name:</p>
+          <input class="form-control" type="text" data-parsley-errors-container="#element" data-parsley-trigger="change" name="name" id="name" data-parsley-required="true">
+          <br>
+          <p>Phone:</p>
+          <input class="form-control" type="text" name="phone" id="phone" data-parsley-trigger="change" data-parsley-pattern="^[\d\+\-\.\(\)\/\s]*$" data-parsley-required="true">
+          <br>
+          <p>E-Mail:</p>
+          <input class="form-control" type="text" name="email" id="email" data-parsley-trigger="change" data-parsley-type="email" required="">
+          <br>
+          <p>Message:</p>
+          <textarea class="form-control" type="text" name="message" rows="4" data-parsley-trigger="change" id="message" placeholder=""></textarea>
+          <br><br>
 
-        <form id="contactForm" data-parsley-validate="" novalidate="">
-            <p>Name:</p>
-            <input class="form-control" type="text" data-parsley-errors-container="#element" data-parsley-trigger="change" name="name" id="name" data-parsley-required="true">
-            <br>
-            <p>Phone:</p>
-            <input class="form-control" type="text" name="phone" id="phone" data-parsley-trigger="change" data-parsley-pattern="^[\d\+\-\.\(\)\/\s]*$" data-parsley-required="true">
-            <br>
-            <p>E-Mail:</p>
-            <input class="form-control" type="text" name="email" id="email" data-parsley-trigger="change" data-parsley-type="email" required="">
-            <br>
-            <p>Message:</p>
-            <textarea class="form-control" type="text" name="message" rows="4" data-parsley-trigger="change" id="message" placeholder=""></textarea>
-            <br><br>
+          <button type="submit" class="button contactpage">Submit</button>
+          <div class="thankContainer">
+              <p>Thanks for reaching out! We will be in touch with you shortly.</p>
+          </div>
 
-            <button type="submit" class="button contactpage">Submit</button>
-            <div class="thankContainer">
-                <p>Thanks for reaching out! We will be in touch with you shortly.</p>
-            </div>
-
-            <input type="hidden" name="*honeypot">
-            <input type="hidden" name="*reply" value="user@enformed.io">
-            <input type="hidden" name="*default_email" value="steve@wilhelmyhomes.com">
-            <input type="hidden" name="*subject" value="Form Submission from MNProbate.com">
-            <input type="hidden" name="*redirect" value="https://www.yoursite.com">
-            </form>
+          <input type="hidden" name="*honeypot">
+          <input type="hidden" name="*reply" value="user@enformed.io">
+          <input type="hidden" name="*default_email" value="steve@wilhelmyhomes.com">
+          <input type="hidden" name="*subject" value="Form Submission from MNProbate.com">
+          <input type="hidden" name="*redirect" value="https://www.yoursite.com">
+          </form>
+    </div>
   </div>
-
+  
   <footer>
     <div class="copyright">
-      <p>© 2017 Wilhelmy Homes</p>
+      <p>&copy; 2017 Wilhelmy Homes</p>
     </div>
   </footer>
 

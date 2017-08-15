@@ -34,7 +34,8 @@ body {
   font-size: 20px;
   line-height: 1.5;
   color: #666;
-
+  background-color: #cf1330;
+  /*background-color: blue;*/
   -webkit-font-smoothing: antialiased;
 }
 
@@ -98,7 +99,7 @@ footer {
 }
 
 header {
-  padding: 0 3%;
+  padding: 0 1.5em;
   border-bottom: 4px solid #fff;
   z-index: 999;
 }
@@ -128,8 +129,12 @@ header.shadow {
    ================================================================ */
 nav {
   float: right;
-  padding-left: 30px;
   text-align: right;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
 }
 
 nav li {
@@ -138,9 +143,9 @@ nav li {
   font-size: smaller;
 }
 
-nav a {
-  display: block;
-  padding: 20px 15px 0 15px;
+nav li a {
+  display: inline-block;
+  padding: 20px 0 0 30px;
   transition: all .2s ease;
 }
 
@@ -172,11 +177,12 @@ header nav strong {
 
 .blurb h2 {
   font-weight: 600;
+  line-height: .9em;
   /*text-transform: uppercase;*/
 }
 
 .blurb p {
-  margin: 10px 0 20px 0;
+  margin: 15px 0 20px 0;
 }
 
 
@@ -197,13 +203,14 @@ header nav strong {
 
 /* Banner
    ================================================================ */
+
 .blurb {
   float: right;
   max-width: 520px;
+  margin: 5.5em 1.5em;
   padding: 50px;
   background-color: #fff;
   background-color: rgba(255, 255, 255, .8);
-  margin: 6%;
 }
 
 .banner {
@@ -279,14 +286,22 @@ header nav strong {
 
 /*5 STEPS=================================*/
 
+.full-width-wrapper {
+  background-color: #fff;
+  width:100%;
+}
+
+
 .steps-container{
   overflow: hidden;
   margin: 0 auto;
   max-width: 1200px;
   display:block;
   clear:both;
-  margin: 25px auto 0 auto;
+  /*margin: 25px auto 0 auto;*/
   padding: 5% 6%;
+  padding: 7.5% 6% 5% 6%;
+  background: #fff;
 }
 
 .steps-container h3{
@@ -386,8 +401,10 @@ header nav strong {
   max-width: 1200px;
   display:block;
   clear:both;
-  margin: 25px auto 25px auto;
+  /*margin: 25px auto 25px auto;*/
   padding: 5% 6%;
+  padding: 7.5% 6%;
+  background: #fff;
 }
 
 .icons-section-container h3{
@@ -619,15 +636,6 @@ header nav strong {
 
 }
 
-.blurb {
-  float: right;
-  max-width: 520px;
-  margin: 5.5em 2em;
-  padding: 50px;
-  background-color: #fff;
-  background-color: rgba(255, 255, 255, .8);
-}
-
 .test-filter {
   height: 100%;
   text-align: center;
@@ -779,14 +787,14 @@ li.parsley-required, li.parsley-pattern, li.parsley-type{
 
 #contactForm .button {
   width: 60%;
-  background-color: #B5D9DC;
+  background-color: #CBE4E6;
   color: #39696D;
   margin: auto;
   /*float:right ;*/
 }
 
 #contactForm .button:hover {
-  background-color: #CBE4E6;
+  background-color: #B5D9DC;
 }
 
 .copyright {

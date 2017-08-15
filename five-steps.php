@@ -92,41 +92,40 @@
 <!-- ============== END TESTIMONALS section ============== -->
 
 <!-- ================= GLOSSARY section -====================== -->
-  <div class="subpage-container">
-    
+  <div class="full-width-wrapper">
+    <div class="subpage-container">
+        <section class="steps-text">
+  <!--       <h2>This is H2 5 Steps to a Smooth Probate Real Estate Process</h2> -->
+              <div class="subpage-bodytext">
+              <p>In our experience, we have broken this process down into 5 steps that you will be going through to sell a house that is attached to a probate or trust.  Some steps maybe quicker than others, the team will be communicating with you all along the process to make sure you have a less stressful and smooth experience.</p>
 
-      <section class="steps-text">
-<!--       <h2>This is H2 5 Steps to a Smooth Probate Real Estate Process</h2> -->
-            <div class="subpage-bodytext">
-            <p>In our experience, we have broken this process down into 5 steps that you will be going through to sell a house that is attached to a probate or trust.  Some steps maybe quicker than others, the team will be communicating with you all along the process to make sure you have a less stressful and smooth experience.</p>
+              <h3>1. Initial Consultation</h3>
+              <p>Here is where we look at the house, the condition and potential selling prices.  Most importantly. We will sit down and talk about your options for the property and what you would like to do.  We will talk about realistic time frames and amount of work involved in each step.</p>
 
-            <h3>1. Initial Consultation</h3>
-            <p>Here is where we look at the house, the condition and potential selling prices.  Most importantly. We will sit down and talk about your options for the property and what you would like to do.  We will talk about realistic time frames and amount of work involved in each step.</p>
+              <h3>2. Due Diligence</h3>
+              <p>This is where we do our “Behind the Scenes” work and make sure that there are no surprises about the property.  That research includes mortgage searches, lien review, code compliance issues and more.  We will discuss the complete scope of what is researched at our first meeting.</p>
 
-            <h3>2. Due Diligence</h3>
-            <p>This is where we do our “Behind the Scenes” work and make sure that there are no surprises about the property.  That research includes mortgage searches, lien review, code compliance issues and more.  We will discuss the complete scope of what is researched at our first meeting.</p>
+              <h3>3. Personal Property Handling</h3>
+              <p>There are so many avenues that you can take during this step.  The main categories include:</p>
+                <ul class="subpage-list">
+                  <li>Bequeath to family and friends based on last wishes spelled out in the will</li>
+                  <li>Give / sell to family members</li>
+                  <li>Sale of property via estate sale, auction or garage sale</li>
+                  <li>Donate to charities</li>
+                  <li>Haul Away</li>
+                </ul> 
 
-            <h3>3. Personal Property Handling</h3>
-            <p>There are so many avenues that you can take during this step.  The main categories include:</p>
-              <ul class="subpage-list">
-                <li>Bequeath to family and friends based on last wishes spelled out in the will</li>
-                <li>Give / sell to family members</li>
-                <li>Sale of property via estate sale, auction or garage sale</li>
-                <li>Donate to charities</li>
-                <li>Haul Away</li>
-              </ul> 
-
-            <h3>4. House Preparation</h3>
-            <p>Depending on our conversations in the beginning of this process, some preparation work will be in order from cleaning the house, maybe cosmetic improvements or possibly even a complete rehab.</p>
-            <h3>5. Place House on Market and Sell</h3>
-            <p>This is where this process comes back and looks more like a traditional residential sale.  Our team will put together the full marketing package including professional pictures, floorplans, staging (depending on step 4), etc… and market to the most possible buyers to get an offer on the property.  Once the offer is received, we will work with you and the attorney for the estate to work through all the details so everything goes smooth through the closing.</p>
+              <h3>4. House Preparation</h3>
+              <p>Depending on our conversations in the beginning of this process, some preparation work will be in order from cleaning the house, maybe cosmetic improvements or possibly even a complete rehab.</p>
+              <h3>5. Place House on Market and Sell</h3>
+              <p>This is where this process comes back and looks more like a traditional residential sale.  Our team will put together the full marketing package including professional pictures, floorplans, staging (depending on step 4), etc… and market to the most possible buyers to get an offer on the property.  Once the offer is received, we will work with you and the attorney for the estate to work through all the details so everything goes smooth through the closing.</p>
 
 
-            </div>
+              </div>
 
-        </section>  
+          </section>  
+    </div>
   </div>
-
 
   <!-- ============== end DISPONSITION section ============== -->
 
