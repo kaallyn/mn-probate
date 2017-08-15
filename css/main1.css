@@ -112,9 +112,9 @@ footer p {
   margin: 0;
 }
 
-header {
+/*header {
   visibility: hidden;
-}
+}*/
 
 header.shadow {
   position: fixed;
@@ -169,6 +169,16 @@ header nav strong {
   box-shadow: inset 0 -3px 0 rgba(0,0,0,.2);
   transition: all .2s ease;
 }
+
+.blurb h2 {
+  font-weight: 600;
+  /*text-transform: uppercase;*/
+}
+
+.blurb p {
+  margin: 10px 0 20px 0;
+}
+
 
 /* Super info button in blurb */
 .blurb .button {
@@ -286,22 +296,21 @@ header nav strong {
   padding: 0 0 0 3%;
 }
 .fivesteps {
-  /*float: left;*/
-/*  width: 60%;*/
-  margin: 25px 0;
-  padding: 2% 3% 0 3%;
+  padding: 3% 3% 0 3%;
 }
 
 .steps-list-container {
-/*  float: left;
-  width: 40%;*/
   margin: 0 0 25px 0;
   padding: 0 3% 2% 3%;
 }
 
 .steps-ul {
   margin-left: 3em;
-  /*padding: 0 3% 0 3%;*/
+}
+
+.steps-ul li {
+  /*color: red;*/
+  padding-top: .5em;
 }
 
 
@@ -313,7 +322,7 @@ header nav strong {
     margin: 7% auto 0 auto;
     background-color: #577A90;
     color: #fff;
-    width: 50%
+    width: 60%
 }
 
 .steps-container .button:hover {
@@ -321,7 +330,7 @@ header nav strong {
 }
 
 /*DISPOSITION OPTIONS========================*/
-
+/*
 .disposition-container{
   overflow: hidden;
   margin: 0 auto;
@@ -367,7 +376,7 @@ header nav strong {
 
 .disposition-container .button.hiding{
     display: none;    
-  }
+  }*/
 
 /*THREE ICONS SECTION========================*/
 
@@ -459,6 +468,7 @@ header nav strong {
   border-radius: 5px;
   box-shadow: inset 0 -3px 0 rgba(0,0,0,.2);
   border: 1px solid rgba(0,0,0,.2);
+  transition: all 300ms ease-in-out;
 }
 
 .card .card-title {
@@ -499,11 +509,13 @@ header nav strong {
 
 .card .card-image {
   position: relative;
+/*  transition: all 500ms ease-in-out;*/
 }
 
 .card .card-content {
   padding: 24px;
   border-radius: 0 0 2px 2px;
+/*  transition: all 500ms ease-in-out;*/
 }
 
 .card .card-content p {
@@ -546,6 +558,52 @@ header nav strong {
   -moz-font-feature-settings: 'mat';
   font-feature-settings: 'liga';
   float: right;
+}
+/*SCROLL ANIMATIONS========================*/
+
+.orange {
+  border: 3px solid orange;
+}
+
+.clearHeader{
+  height: 200px; 
+  background-color: rgba(107,107,107,0.66);
+  position: fixed;
+  top:200;
+  width: 100%;
+}
+
+
+.darkHeader {
+  height: 100px;
+  background-color: rgba(107,107,107,0.9);
+  position: fixed;
+  top: 200;
+  width: 100%;
+}
+
+.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+.not-hidden {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(1px);
+}
+
+.quote.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(50px);
+}
+
+.quote.not-hidden {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(1px);
 }
 
 /*TESTIMONIALS========================*/
@@ -610,19 +668,19 @@ header nav strong {
   width: 100%;
   margin: 0 auto;
   max-width: 700px;
-  padding: 1.5em 0;
-  border: 1px solid #fff;
-  border: 1px solid rgba(255,255,255,.6);
-  border-right: none;
-  border-left: none;
-  border-bottom: none;   
+  padding: 1.7em 0;
+  border-bottom: 1px solid rgba(255,255,255,.6);
+  transition: all 300ms ease-in-out;
+  
 }
+
 .quote p {
   margin-bottom: .5em;
 }
 
-.quote:first-of-type {
-    border-top: none;
+.quote:last-of-type {
+    border-bottom: none;
+    padding: 2em 0 0 0;
   }
 
 .quotetext {
@@ -664,12 +722,12 @@ li.parsley-required, li.parsley-pattern, li.parsley-type{
 }
 
 .form-column {
-  width: 47.7%;
+  width: 48.2%;
   display: inline-block;
 }
 
 .form-column:nth-child(odd) {
-  margin-right: 4%;
+  margin-right: 3%;
 }
 
 .form-group {
@@ -692,7 +750,6 @@ li.parsley-required, li.parsley-pattern, li.parsley-type{
 }
 
 #contactForm {
-/*  width: 50%;*/
   margin: 0 auto;
   padding: 4% 6% 0 6%;
 }
@@ -701,7 +758,7 @@ li.parsley-required, li.parsley-pattern, li.parsley-type{
   display: block;
   width: 100%;
   margin-top: .9em;
-  padding: 10px 12px;
+  padding: 14px 12px;
   font-size: 14px;
   line-height: 1.42857143;
   color: #555;
@@ -721,7 +778,7 @@ li.parsley-required, li.parsley-pattern, li.parsley-type{
 }
 
 #contactForm .button {
-  width: 47.7%;
+  width: 60%;
   background-color: #B5D9DC;
   color: #39696D;
   margin: auto;
@@ -1001,7 +1058,7 @@ li.parsley-required, li.parsley-pattern, li.parsley-type{
   }
 
   .steps-container .button {
-    width: 50%;
+/*    width: 50%;*/
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -1016,22 +1073,6 @@ li.parsley-required, li.parsley-pattern, li.parsley-type{
     width: 100%;
     margin: 1em 0 0 0;
     padding: 3%;
-  }
-  .disposition-list-container {
-    float: left;
-    width: 100%;
-    margin: 0 0 2em 0;
-    padding: 0 3% 0 3%;
-  }
-
-  .disposition-container .button {
-    display: none; 
-  }
-
-  .disposition-container .button.hiding{
-    display: block;
-    width: 62%;
-    float: left; 
   }
 
   .subpage-bodytext li {
@@ -1113,7 +1154,11 @@ li.parsley-required, li.parsley-pattern, li.parsley-type{
   .form-column {
     width: 100%;
     display: inline-block;
-}
+  }
+
+  #contactForm .button {
+    width: 100%;
+  }
 
 }
 
@@ -1121,6 +1166,11 @@ li.parsley-required, li.parsley-pattern, li.parsley-type{
   .icon-column {
     width: 100%;
   }
+
+  .steps-ul {
+    margin-left: 0;
+  }
+
 }
 
 @media screen and (max-width: 360px) {

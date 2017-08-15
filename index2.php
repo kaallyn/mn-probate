@@ -9,7 +9,9 @@
 
   <title>MN Probate Real Estate Services</title>
 
-  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,700|Oswald:700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700|Oswald:700' rel='stylesheet' type='text/css'>
+
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,700,900" rel="stylesheet" type="text/css">
 
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -20,10 +22,6 @@
 </head>
 
 <body>
-
-<!-- <header class="clearHeader"> clearheader
-</header> -->
-
   <header class="clearfix shadow">
     <h1><a href="index.php">MN Probate Real Estate</a></h1>
      
@@ -76,7 +74,7 @@
 
 
   <!-- ================= steps section -====================== -->
-  <div class="steps-container">
+  <!-- <div class="steps-container">
     
 
       <section class="steps-text">
@@ -95,10 +93,89 @@
               <a class="button" href="five-steps.php">Learn More</a>
             </div>
         </section>  
-  </div>
+  </div> -->
 
 
   <!-- ============== end steps section ============== -->
+
+  <!-- ================= 3 ICONS section -====================== -->
+  <div class="icons-section-container">
+    
+
+    <section class="steps-text">
+      <h3>DISPOSITION OPTIONS</h3>
+        <div class="icons-opener">
+          <p>When dealing with a property as part of an estate, there are different to handle it. Each option has its own pros and cons, and we'll work with you to find the best solution for your individual circumstances.</p>
+        </div>
+
+        <div class="three-icons">
+          <div class="icon-column">
+            <div class="card small">
+              <div class="card-image waves-effect waves-block waves-light">
+                <div class="square">
+                  <i class="fa fa-key"></i>
+                </div>
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Keep It<i class="material-icons right">more_vert</i></span>
+                <p><a href="#">This is a link</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Keep It<i class="material-icons right">close</i></span>
+                <p class="card-option">Pro:</p>
+                <p class="option-description">Easy to do if property is already an income producing property.</p>
+                <p class="card-option">Con:</p>
+                <p class="option-description">Eventually it will have to be sold so the estate can be closed.</p>
+              </div>
+            </div>
+          </div>
+          <div class="icon-column">
+            <div class="card small">
+              <div class="card-image waves-effect waves-block waves-light">
+                <div class="square">
+                  <i class="fa fa-handshake-o"></i>
+                </div>
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Sell As-Is <i class="material-icons right">more_vert</i></span>
+                <p><a href="#">This is a link</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Sell As-Is <i class="material-icons right">close</i></span>
+                <p class="card-option">Pro:</p>
+                <p class="option-description">Quickest access to house equity.</p>
+                <p class="card-option">Con:</p>
+                <p class="option-description">Typically lowest price received.</p>
+              </div>
+            </div>
+          </div>
+          <div class="icon-column">
+            <div class="card small">
+              <div class="card-image waves-effect waves-block waves-light">
+                <div class="square">
+                  <i class="fa fa-magic"></i>
+                </div>
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Renovate
+                  <i class="material-icons right">more_vert</i>
+                </span>
+                <p><a href="#">This is a link</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Renovate<i class="material-icons right">close</i></span>
+                <p class="card-option">Pro:</p>
+                <p class="option-description">Probable highest sales price.</p>
+                <p class="card-option">Con:</p>
+                <p class="option-description">Highest amount of work for the estate.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>  
+  </div>
+
+  <!-- ============== end DISPONSITION section ============== -->
 
  
   <!-- ============== BEGIN TESTIMONALS section ============== -->
@@ -129,84 +206,28 @@
   </div>
 
 <!-- ================= 3 ICONS section -====================== -->
-  <div class="icons-section-container">
+
+  <div class="steps-container">
     
 
-    <section class="steps-text">
-      <h3>DISPOSITION OPTIONS</h3>
-        <div class="icons-opener">
-          <p>When dealing with a property as part of an estate, there are different to handle it. Each option has its own pros and cons, and we'll work with you to find the best solution for your individual circumstances.</p>
-        </div>
-
-        <div class="three-icons">
-          <div class="icon-column">
-            <div class="card small">
-              <div class="card-image">
-                <div class="square">
-                  <i class="fa fa-key"></i>
-                </div>
-              </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Keep It<i class="material-icons right">more_vert</i></span>
-                <p><a href="#">This is a link</a></p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Keep It<i class="material-icons right">close</i></span>
-                <p class="card-option">Pro:</p>
-                <p class="option-description">Easy to do if property is already an income producing property.</p>
-                <p class="card-option">Con:</p>
-                <p class="option-description">Eventually it will have to be sold so the estate can be closed.</p>
-              </div>
+      <section class="steps-text">
+      <h3>5 Steps to a Smooth Probate Process</h3>
+            <div class="fivesteps">
+            <p>In our experience, we have broken this process down into 5 steps that you will be going through to sell a house that is attached to a probate or trust.  Some steps maybe quicker than others, the team will be communicating with you all along the process to make sure you have a less stressful and smooth experience.</p>
             </div>
-          </div>
-          <div class="icon-column">
-            <div class="card small">
-              <div class="card-image">
-                <div class="square">
-                  <i class="fa fa-handshake-o"></i>
-                </div>
-              </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Sell As-Is <i class="material-icons right">more_vert</i></span>
-                <p><a href="#">This is a link</a></p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Sell As-Is <i class="material-icons right">close</i></span>
-                <p class="card-option">Pro:</p>
-                <p class="option-description">Quickest access to house equity.</p>
-                <p class="card-option">Con:</p>
-                <p class="option-description">Typically lowest price received.</p>
-              </div>
+            <div class="steps-list-container">
+              <ul class="steps-ul">
+                <li>1. Initial Consultation</li>
+                <li>2. Due Diligence</li>
+                <li>3. Personal Property Handling</li>
+                <li>4. House Preparation</li>
+                <li>5. Place House on Market and Sell</li>
+              </ul>
+              <a class="button" href="five-steps.php">Learn More</a>
             </div>
-          </div>
-          <div class="icon-column">
-            <div class="card small">
-              <div class="card-image">
-                <div class="square">
-                  <i class="fa fa-magic"></i>
-                </div>
-              </div>
-              <div class="card-content">
-                <span class="card-title activator grey-text text-darken-4">Renovate
-                  <i class="material-icons right">more_vert</i>
-                </span>
-                <p><a href="#">This is a link</a></p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Renovate<i class="material-icons right">close</i></span>
-                <p class="card-option">Pro:</p>
-                <p class="option-description">Probable highest sales price.</p>
-                <p class="card-option">Con:</p>
-                <p class="option-description">Highest amount of work for the estate.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-    </section>  
+        </section>  
   </div>
 
-<header class="clearHeader"> clearheader
-</header>
   <!-- ============== end DISPONSITION section ============== -->
 
 
